@@ -1,0 +1,1 @@
+alert("You can use 'p' to play the audio, left/right keys for moving through slides, and up/down keys to regulate the master volume.")

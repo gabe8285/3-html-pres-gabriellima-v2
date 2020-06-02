@@ -1,0 +1,81 @@
+            p,
+            h1,
+            h2,
+            h3,
+            h5,
+            h6 {
+                font-family: 'Merienda One', cursive;
+            }
+            
+            h4 {
+                font-family: 'Jost', sans-serif;
+            }
+            /* slideshow */
+            
+            .myslides {
+                Display: none;
+            }
+            /*full-screen images */
+            
+            body,
+            html {
+                height: 100%;
+            }
+            
+            .fs {
+                /* Full height */
+                height: 100%;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: -5;
+            }
+            
+            .img-1 {
+                /* The image used */
+                background-image: url("../img/beach-sun.jpg");
+            }
+            
+            .img-2 {
+                /* The image used */
+                background-image: url("../img/people-walking.jpg");
+            }
+            
+            .img-4 {
+                /* The image used */
+                background-image: url("../img/woman-kissing-woman-s-cheek-1421784.jpg");
+            }
+            
+            .img-7 {
+                /* The image used */
+                background-image: url("../img/assorted-hot-air-balloons-photo-during-sunset-670061.jpg");
+            }
+            
+            .fs-video {
+                z-index: -3;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            
+            figure {
+                margin: 0;
+                z-index: 10;
+            }
+            
+            .audio {
+                display: block;
+                height: 30px;
+                width: 350px;
+            }
+            
+            figcaption {
+                font-size: 10px;
+                text-align: center;
+            }

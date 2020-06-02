@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="utf-8">
+    <!-- title tag -->
+    <title>Beach day</title>
+    <!-- meta description -->
+    <meta name="description" content="Poem project - Gabriel Lima">
+    <!-- mobile friendly viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+
+
+</head>
+
+<body class="w3-black">
+
+    <!-- music player -->
+    <figure class="w3-display-topleft">
+        <audio controls src="music/bensound-summer.mp3" class="audio" id="myAudio">
+        Your browser does not support the
+        <code>audio</code> element.
+        </audio>
+        <figcaption>
+            Music:<a href="https://www.bensound.com/royalty-free-music/track/summer-chill-relaxed-tropical " target="_blank ">www.bensound.com</a>(Benjamin Tissot)</figcaption>
+    </figure>
+
+
+    <!-- buttons to move through slides -->
+    <button class="w3-button w3-display-left " onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right " onclick="plusDivs(+1) ">&#10095;</button>
+
+
+
+
+    <!-- SLIDE #1 -->
+    <section class=" mySlides fs img-1 ">
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-middle w3-text-black ">
+                <h1 class="animated fadeIn delay-1s fast ">The afternoon sunlight hitting my cheeks...</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-black ">
+                <h4>Photo by Sindre Strøm from Pexels</h4>
+            </div>
+    </section>
+
+    <!-- SLIDE #2 -->
+    <section class=" mySlides fs img-2 ">
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-middle ">
+                <h1 class="animated fadeIn delay-1s fast ">...Walking with my family,</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-black ">
+                <h4>Photo by Ray Bilcliff from Pexels</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SLIDE #3 -->
+    <section class="mySlides ">
+        <!-- The video -->
+        <video autoplay muted loop class="fs-video ">
+            <source src="video/beach-shore-water.mp4 " type="video/mp4 ">
+        </video>
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-bottomleft ">
+                <h1 class="animated fadeInLeft slow ">The sound of the sea shores breaking into the sand...</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-white ">
+                <h4>Video by Peter Fowler from Pexels</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SLIDE #4 -->
+    <section class=" mySlides fs img-4 ">
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-middle ">
+                <h1 class="animated fadeIn normal ">...Grandma take my hand,</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-black ">
+                <h4>Photo by Robert Stokoe from Pexels</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE #5 -->
+    <section class="mySlides ">
+        <!-- The video -->
+        <video autoplay muted loop class="fs-video ">
+            <source src="video/video (1).mp4 " type="video/mp4 ">
+        </video>
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-bottomleft ">
+                <h1 class="animated fadeInRight slow ">Reunited as a family we walk together...</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-white ">
+                <h4>Video by Peter Fowler from Pexels</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE #6 -->
+    <section class="mySlides ">
+        <!-- The video -->
+        <video autoplay muted loop class="fs-video ">
+        <source src="video/blue skies.mp4 " type="video/mp4 ">
+    </video>
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-bottomleft " style="left: 6px;">
+                <h1 class="animated fadeInDown slow ">...Under the blue and cloudy sky,</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-white ">
+                <h4>Video by Ilya Klimenko from Pexels</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SLIDE #7 -->
+    <section class=" mySlides fs img-7">
+        <div class="w3-cell-row ">
+            <div class="w3-container w3-cell w3-mobile w3-cell-bottom w3-display-bottomleft ">
+                <h1 class="animated fadeIn normal ">Hoping someday we will be able to fly.</h1>
+            </div>
+            <div class="w3-display-bottomright w3-text-black ">
+                <h4>Photo by Snapwire from Pexels</h4>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/slides.js "></script>
+    <script src="js/audio-controls.js"></script>
+    <script src="js/popup-instructions.js"></script>
+</body>
+
+</html>
